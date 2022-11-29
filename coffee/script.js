@@ -4,7 +4,7 @@ function imgSlider(anything) {
 
 function changeCircleColor(number) {
     const cicrle = document.querySelector('.circle')
-    let color = ['#017143', '#eb7495', '#d752b1']
+    const color = ['#017143', '#eb7495', '#d752b1']
     cicrle.style.background = color[number - 1]
 }
 
